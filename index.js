@@ -1,2 +1,3 @@
 let messages= ["bonjour" , "Au revoir" , "Salut"];
-console.log(messages[0]);
+let message = messages[Math.floor(Math.random() * messages.length)];
+console.log(message);
